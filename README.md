@@ -28,4 +28,4 @@ web-application
 
 requester
 
-`Take a look at AtWork class - this is the entry point`
+`Take a look at AtWork class - this is the entry point.`

@@ -26,10 +26,10 @@ public class AtWork {
 	private static final int REQUEST_COUNT = 10;
 
 	public static void main(String[] args) {
-		// [] regular servlets
+		// [] regular servlet
 		System.out.println("\n[] Regular servlet -----");
 		launch(REGULAR_SERVLET_URN);
-		// [] async servlets
+		// [] async servlet
 		System.out.println("\n[] Async servlet -----");
 		launch(ASYNC_SERVLET_URN);
 	}
