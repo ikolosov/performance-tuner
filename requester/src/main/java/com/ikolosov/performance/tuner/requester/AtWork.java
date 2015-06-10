@@ -15,17 +15,22 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.IntStream;
 
+/**
+ * @author ikolosov
+ */
 public class AtWork {
 
-	private static final String REGULAR_SERVLET_URN = "/servlet/regular";
-	private static final String ASYNC_SERVLET_URN = "/servlet/async";
+	private static final String REGULAR_SERVLET_URN = "/web-application/regular";
+	private static final String ASYNC_SERVLET_URN = "/web-application/async";
 
-	private static final int REQUEST_COUNT = 50;
+	private static final int REQUEST_COUNT = 10;
 
 	public static void main(String[] args) {
-		// [] regular servlet
-//		launch(REGULAR_SERVLET_URN);
-		// [] async servlet
+		// [] regular servlets
+		System.out.println("\n[] Regular servlet -----");
+		launch(REGULAR_SERVLET_URN);
+		// [] async servlets
+		System.out.println("\n[] Async servlet -----");
 		launch(ASYNC_SERVLET_URN);
 	}
 

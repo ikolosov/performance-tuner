@@ -13,7 +13,7 @@
     </properties>
 
 	<modules>
-		<module>servlet</module>
+		<module>web-application</module>
 		<module>requester</module>
 	</modules>
 	
